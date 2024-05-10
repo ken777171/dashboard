@@ -1,0 +1,35 @@
+import { avatarIds } from '@/utils/get-avatar';
+import { getRandomArrayElement } from '@/utils/get-random-array-element';
+
+export const pendingShipments = [
+  { id: '80001', date: '2023-12-10T12:26:34.288Z', component: 'Door Motor', error: 'Warning', duration: '95', status: 'healthy', solution: 'no action needed' },
+  { id: '80002', date: '2023-11-12T10:20:34.288Z', component: 'Traction Motor', error: 'Critical', duration: '10', status: 'urgent', solution: 'action needed' },
+  { id: '80003', date: '2023-12-24T14:40:34.288Z', component: 'Magnetic Brake', error: 'Critical', duration: '43', status: 'healthy', solution: 'pending' },
+  { id: '80004', date: '2024-01-15T07:30:34.288Z', component: 'Safety Board', error: 'Warning', duration: '25', status: 'urgent', solution: 'no action needed' },
+  { id: '80005', date: '2024-03-11T15:45:34.288Z', component: 'Door Motor', error: 'Critical', duration: '58', status: 'healthy', solution: 'action needed' },
+  { id: '80006', date: '2024-02-18T09:50:34.288Z', component: 'Traction Motor', error: 'Warning', duration: '70', status: 'healthy', solution: 'no action needed' },
+  { id: '80007', date: '2023-07-20T08:26:34.288Z', component: 'Safety Board', error: 'Critical', duration: '3', status: 'healthy', solution: 'pending' },
+  { id: '80008', date: '2023-09-12T12:26:34.288Z', component: 'Magnetic Brake', error: 'Warning', duration: '87', status: 'urgent', solution: 'action needed' },
+  { id: '80009', date: '2024-04-30T10:26:34.288Z', component: 'Door Motor', error: 'Critical', duration: '64', status: 'healthy', solution: 'no action needed' },
+  { id: '80010', date: '2023-08-15T11:26:34.288Z', component: 'Safety Board', error: 'Warning', duration: '22', status: 'healthy', solution: 'pending' },
+  { id: '80011', date: '2023-12-31T08:26:34.288Z', component: 'Traction Motor', error: 'Critical', duration: '19', status: 'urgent', solution: 'action needed' },
+  { id: '80012', date: '2023-11-20T08:26:34.288Z', component: 'Magnetic Brake', error: 'Critical', duration: '40', status: 'healthy', solution: 'no action needed' },
+  { id: '80013', date: '2024-01-22T08:26:34.288Z', component: 'Door Motor', error: 'Warning', duration: '65', status: 'healthy', solution: 'pending' },
+  { id: '80014', date: '2024-04-20T08:26:34.288Z', component: 'Safety Board', error: 'Critical', duration: '34', status: 'urgent', solution: 'action needed' },
+  { id: '80015', date: '2024-03-28T08:26:34.288Z', component: 'Traction Motor', error: 'Warning', duration: '90', status: 'healthy', solution: 'no action needed' },
+  { id: '80016', date: '2023-10-13T08:26:34.288Z', component: 'Magnetic Brake', error: 'Critical', duration: '12', status: 'healthy', solution: 'action needed' },
+  { id: '80017', date: '2024-02-01T08:26:34.288Z', component: 'Door Motor', error: 'Warning', duration: '23', status: 'urgent', solution: 'pending' },
+  { id: '80018', date: '2023-09-25T08:26:34.288Z', component: 'Safety Board', error: 'Critical', duration: '88', status: 'healthy', solution: 'no action needed' },
+  { id: '80019', date: '2024-04-02T08:26:34.288Z', component: 'Traction Motor', error: 'Warning', duration: '47', status: 'healthy', solution: 'action needed' },
+  { id: '80020', date: '2023-12-15T08:26:34.288Z', component: 'Magnetic Brake', error: 'Critical', duration: '33', status: 'urgent', solution: 'pending' },
+  { id: '80021', date: '2024-01-19T08:26:34.288Z', component: 'Door Motor', error: 'Critical', duration: '10', status: 'healthy', solution: 'no action needed' },
+  { id: '80022', date: '2024-03-01T08:26:34.288Z', component: 'Safety Board', error: 'Warning', duration: '51', status: 'healthy', solution: 'pending' },
+  { id: '80023', date: '2023-11-28T08:26:34.288Z', component: 'Traction Motor', error: 'Critical', duration: '18', status: 'urgent', solution: 'no action needed' },
+  { id: '80024', date: '2024-05-08T08:26:34.288Z', component: 'Magnetic Brake', error: 'Warning', duration: '29', status: 'healthy', solution: 'action needed' },
+  { id: '80025', date: '2024-02-22T08:26:34.288Z', component: 'Door Motor', error: 'Critical', duration: '77', status: 'healthy', solution: 'pending' },
+  { id: '80026', date: '2023-08-30T08:26:34.288Z', component: 'Safety Board', error: 'Warning', duration: '56', status: 'urgent', solution: 'no action needed' },
+  { id: '80027', date: '2024-01-30T08:26:34.288Z', component: 'Traction Motor', error: 'Critical', duration: '32', status: 'healthy', solution: 'action needed' },
+  { id: '80028', date: '2023-07-21T08:26:34.288Z', component: 'Magnetic Brake', error: 'Warning', duration: '74', status: 'healthy', solution: 'pending' },
+  { id: '80029', date: '2024-03-25T08:26:34.288Z', component: 'Door Motor', error: 'Critical', duration: '37', status: 'urgent', solution: 'no action needed' },
+  { id: '80030', date: '2023-10-18T08:26:34.288Z', component: 'Safety Board', error: 'Warning', duration: '8', status: 'healthy', solution: 'action needed' }
+];
